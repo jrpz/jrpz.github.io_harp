@@ -15,6 +15,14 @@
     "url": "http://stories.rackspace.com/"
   },
 
+  "saving-face-skin-therapy": {
+    "title": "SavingFace Skin Therapy",
+    "type": "website",
+    "description": "Brochure site built using Squarespace's developer platform.",
+    "tools": "LESS, YUI",
+    "url": "http://www.savingfaceskintherapy.com/"
+  },
+
   "second-opinion": {
     "title": "Second Opinion Specialists",
     "type": "website",
@@ -29,14 +37,6 @@
     "description": "Expression Engine site for a San Antonio and San Francisco based collaborative workspace.",
     "tools": "LESS, jQuery, Twitter Bootstrap",
     "url": "http://geekdom.com/"
-  },
-
-  "saving-face-skin-therapy": {
-    "title": "SavingFace Skin Therapy",
-    "type": "website",
-    "description": "Brochure site built using Squarespace's developer platform.",
-    "tools": "LESS, YUI",
-    "url": "http://www.savingfaceskintherapy.com/"
   },
 
   "aact-now-voter-lookup": {

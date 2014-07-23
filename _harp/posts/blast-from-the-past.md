@@ -9,7 +9,7 @@ One such nugget was the homepage hero unit.  We wanted to produce something spec
 > "Hey let's make the hero spin!"
 > - said someone (forgot again.)
 
-At this point in my dev career I had not very much animation, though I had always wanted to.  Originally I attempted to create the barrel rolling hero with some JavaScript and CSS animation, but the outcome was choppy and sluggish at times.  
+At this point in my dev career I had not done very much animation, though I had always wanted to.  Originally I attempted to create the barrel rolling hero with some JavaScript and CSS animation, but the outcome was choppy and sluggish at times.  
 
 Eventually I turned to [Raphael JS](http://raphaeljs.com/).  Now I'm not sure why I originally chose Raphael JS and I don't think I would choose it again.  But I did and here's a pen of the barrel rolling hero.
 
@@ -20,3 +20,5 @@ We also wanted to use animation to represent certain aspects of fighter jet pilo
 
 <p data-height="400" data-theme-id="0" data-slug-hash="mCJtv" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/jrpz/pen/mCJtv/'>Barrel Roll Work Buttons</a> by Jaime Perez (<a href='http://codepen.io/jrpz'>@jrpz</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
+
+Unfortunately I have not worked on many animations since this project.  Hoping that changes soon.

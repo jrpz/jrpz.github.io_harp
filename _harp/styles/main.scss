@@ -79,15 +79,16 @@ main {
 main section {
   margin-bottom: 75px;
   h1 {
-    font-size: 4em;
+    font-size: 5em;
     margin: 10px auto;
-    text-align: right;
   }
 }
 
 main section article {
+  margin-bottom: 35px;
   h4 {
-    margin-bottom: 4px; 
+    margin-bottom: 0;
+    padding-bottom: 0;
     span {
       font-weight: normal;
       font-size: .75em;
@@ -101,7 +102,7 @@ main section article {
   }
 
   p {
-    margin-top: 4px;
+    margin-top: 10px;
   }
 }
 
