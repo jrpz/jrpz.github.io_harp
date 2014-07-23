@@ -1,0 +1,41 @@
+<section id="works">
+  <h1 class="white bg-aqua">Work</h1>
+  <p>
+    A collection of recent projects I've worked on with Barrel Roll Creative.  For the following projects I configured and developed both the back and front end of each site.
+  </p>
+
+  <% for(var i in public.works._data) { %>
+    <article>
+      <h4 class="blue">
+        <!-- <a href="/works/<%= i %>"> -->
+          <%= public.works._data[i].title %> 
+        <!-- </a> -->
+        <span>
+          (<a href="<%= public.works._data[i].url %>" target="_blank">visit site</a>)
+        </span>
+      </h4>
+      
+      <p>
+        <%= public.works._data[i].description %><br />
+        Built with: <%= public.works._data[i].tools %>
+      </p>
+    </article>
+  <% }; %>
+</section>
+
+<section id="posts">
+  <h1 class="white bg-orange">Posts</h1>
+  <% for(var i in public.posts._data) { %>
+    <article>
+      <h4 class="blue">
+        <a href="/posts/<%= i %>">
+          <%= public.posts._data[i].title %> 
+        </a>
+      </h4>
+      
+      <p>
+        <%= public.posts._data[i].description %>
+      </p>
+    </article>
+  <% }; %>
+</section>

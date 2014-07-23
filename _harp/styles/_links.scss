@@ -1,0 +1,12 @@
+/* Prettier Links */
+
+a {
+  transition:         color .3s ease-in-out;
+  text-decoration: none;
+}
+
+a:link    { color: $blue; }
+a:visited { color: $blue; }
+a:hover   { color: $teal; }
+a:active  { color: $orange; }
+

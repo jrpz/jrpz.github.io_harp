@@ -1,0 +1,110 @@
+@import "variables";
+@import "colors";
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $mono;
+  color: #444;
+  font-size: 1.2em;
+}
+
+h1,h2,h3,h4 {
+  font-family: $sans;
+}
+h1 { @extend .navy; }
+h2 { @extend .red; }
+h3 { @extend .blue; }
+h4 { @extend .red; }
+
+// Aside
+// --------------------------
+aside {
+  position: fixed;
+  float: left;
+  width: 245px;
+  background-color: #fafafa;
+  padding: 5px 25px;
+  border-right: 1px solid $gray;
+  box-shadow: 1px 0 0 $white;
+}
+
+// Aside Header
+aside header {
+  h1 a:link, h1 a:visited {
+    color: $red;
+    font-size: 2em;
+    margin: 0 auto 25px;
+  }
+
+  p {
+    font-size: .85em;
+  }
+}
+
+// Aside Navigation
+aside nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 8px auto;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+// Aside Footer
+aside footer {
+  position: absolute;
+  font-size: .8em;
+  bottom: 2px;
+}
+
+
+// Main Content
+// ----------------------------------
+main {
+  position: relative;
+  margin: 0 0 0 245px;
+  padding: 10px 45px;
+}
+
+main section {
+  margin-bottom: 75px;
+  h1 {
+    font-size: 4em;
+    margin: 10px auto;
+    text-align: right;
+  }
+}
+
+main section article {
+  h4 {
+    margin-bottom: 4px; 
+    span {
+      font-weight: normal;
+      font-size: .75em;
+      a:link, a:visited { 
+        color: $red; 
+        &:hover {
+          color: $teal;
+        }
+      }
+    }  
+  }
+
+  p {
+    margin-top: 4px;
+  }
+}
+
+main section .codepen {
+  margin: 45px auto;
+}
