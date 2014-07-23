@@ -27,8 +27,8 @@ aside {
   width: 245px;
   background-color: #fafafa;
   padding: 5px 25px;
-  border-right: 1px solid $gray;
-  box-shadow: 1px 0 0 $white;
+  border-right: 1px solid $white;
+  box-shadow: 1px 0 0 $silver;
 }
 
 // Aside Header
@@ -107,4 +107,19 @@ main section article {
 
 main section .codepen {
   margin: 45px auto;
+}
+
+// Mobilize
+@media all and (max-width: 640px) {
+  aside {
+    position: relative;
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid $silver;
+  }
+
+  main {
+    margin: 0px;
+    padding: 5px;
+  }
 }
