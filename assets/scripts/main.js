@@ -1,6 +1,10 @@
-(function(){
-  var window_height = window.innerHeight + 'px',
-      aside = document.getElementsByTagName('aside');
+// Set aside to full height of the window
+var setAsideHeight = function() {
+  var window_height = $(window).height() + 'px';
+  $('aside').css('min-height', window_height);
+};
 
-  aside[0].setAttribute('style', 'min-height:' + window_height);
-})();
+// Do all the stuff on document ready
+$(document).ready(function() {
+  setAsideHeight();
+});
